@@ -34,6 +34,10 @@ module.exports = {
         },
         localhost: {
             url: "http://127.0.0.1:8545/",
+            allowUnlimitedContractSize: true,
+            gas: 2100000,
+            gasPrice: 8000000000,
+
             // Accounts HardHat thanks
             chainId: 31337,
         },
